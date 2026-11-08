@@ -4,14 +4,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2022,
     sourceType: 'module',
-    project: './tsconfig.json',
   },
   plugins: ['@typescript-eslint'],
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier',
-  ],
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
   env: {
     browser: true,
     es2022: true,
@@ -25,4 +20,4 @@ module.exports = {
     'prefer-const': 'error',
   },
   ignorePatterns: ['dist', 'node_modules', '*.cjs', '*.config.ts'],
-}
+};
