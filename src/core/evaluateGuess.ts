@@ -1,4 +1,4 @@
-import { normalizeDigits } from './createDigitValidator';
+import { normalizeDigits } from './createDigitValidator.js';
 
 export interface GuessResult {
   readonly bulls: number;

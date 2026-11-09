@@ -1,4 +1,4 @@
-import { createDigitValidator, normalizeDigits } from './createDigitValidator';
+import { createDigitValidator, normalizeDigits } from './createDigitValidator.js';
 
 export const isValidGuess = (guess: string, length: number, base: number): boolean => {
   if (guess.length !== length) return false;
